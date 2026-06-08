@@ -24,6 +24,13 @@ CREATE TABLE students (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
+INSERT INTO students (name, email, course) VALUES
+('Ashen Ruvinda', 'ashen@gmail.com', 'Software Engineering'),
+('Nimal Perera', 'nimal@gmail.com', 'Information Technology'),
+('Kamal Silva', 'kamal@gmail.com', 'Computer Science'),
+('Saman Kumara', 'saman@gmail.com', 'Cyber Security'),
+('Tharindu Fernando', 'tharindu@gmail.com', 'Data Science');
+
 
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
